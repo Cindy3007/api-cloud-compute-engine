@@ -4,10 +4,10 @@ const PORT = 3000;
 
 // Contoh endpoint
 app.get('/', (req, res) => {
-  res.status(200).send();  // Mengirimkan response kosong tanpa teks
+  res.send('Hello, your API is Ready!!!');
 });
 
 // Menjalankan server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(Server is running on http://localhost:${PORT});
 });
